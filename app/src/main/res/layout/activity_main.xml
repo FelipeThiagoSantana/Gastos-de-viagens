@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrund"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="434dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gastoviagem" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="358dp"
+        android:layout_height="524dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/layer_customizado"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+
+        <EditText
+            android:id="@+id/edit_distance"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/distancia_00km"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text"
+            android:textColorHint="@color/Grey"
+            android:backgroundTint="@color/purple_700"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:text="@string/total_de_quil_metros"
+            android:textAlignment="center"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_price"
+            android:layout_width="324dp"
+            android:textColor="@color/text"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/preco"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/Grey"
+            android:backgroundTint="@color/purple_700"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:layout_gravity="center"
+            android:text="@string/pre_o_do_combust_vel"
+            android:textAlignment="center"
+
+            />
+
+        <EditText
+
+            android:id="@+id/edit_autonomy"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/autonomia"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/Grey"
+            android:backgroundTint="@color/purple_700"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:layout_gravity="center"
+            android:text="@string/kms_por_litro"
+            android:textAlignment="center"
+
+            />
+
+        <EditText
+
+            android:id="@+id/edit_pedagio"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/valorPedagio"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/Grey"
+            android:backgroundTint="@color/purple_700"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:text="@string/pedagio"
+            android:textAlignment="center"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:layout_marginTop="24dp"
+            android:text="@string/seu_gasto_total_sera_de"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_total_vale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="@string/valor"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="38sp" />
+
+        <Button
+
+            android:id="@+id/button_calculate"
+            android:layout_width="248dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/botao"
+            android:text="@string/calcular"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

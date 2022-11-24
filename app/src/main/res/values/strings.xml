@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GastoViagem</string>
+    <string name="distancia_00km">Distancia ( 00.0km )</string>
+    <string name="total_de_quil_metros">Total de quilômetros</string>
+    <string name="preco">Preço (R$ 0.00)</string>
+    <string name="autonomia">Autonomia (0 km/l)</string>
+    <string name="kms_por_litro">Kms por litro do veículo</string>
+    <string name="valorPedagio">Pedágio(R$ 0.00)</string>
+    <string name="pedagio">Valor do Pedágio </string>
+    <string name="seu_gasto_total_sera_de">SEU GASTO TOTAL SERÁ DE:</string>
+    <string name="valor">R$ 0</string>
+    <string name="calcular">Calcular</string>
+    <string name="pre_o_do_combust_vel">Preço do Combustível</string>
+    <string name="validation_fill_fields">Por favor preencha todos os campos</string>
+
+</resources>
